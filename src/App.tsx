@@ -1,15 +1,15 @@
 import SearchBar from "./search-bar/SearchBar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import { useEffect, useRef, useState } from "react";
 
 function App() {
+  let [x, setX] = useState("Hello");
+
   return (
-    <div
-      className="d-flex justify-content-center align-items-center"
-      style={{ height: "100vh" }}
-    >
+    <div className="" style={{ height: "100vh" }}>
       <div>
-        <SearchBar />
+        <SearchBar x={x} />
       </div>
     </div>
   );
