@@ -6,3 +6,8 @@
   body{
     height: 100vh;
   }
+
+  .card-text{
+    width: fit-content;
+    border: 1px solid;
+  }
